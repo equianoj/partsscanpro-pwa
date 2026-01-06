@@ -13,7 +13,7 @@ async function scan() {
   output.textContent = 'Scanning...';
 
   try {
-    const res = await fetch('/api-identify', {
+    const res = await fetch('/api/identify', {
       method: 'POST',
       body: formData
     });
